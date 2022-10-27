@@ -1,0 +1,42 @@
+header {
+	width: 100%;
+	background:#ff4500;
+	
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+header
+.textos_header{
+height: 30px;
+width:100% ;
+align-items: centert;
+justify-content: center;
+flex-direction: column;
+text-align: center;
+}
+.textos_header h1{
+  
+    font-size: 40px;
+    color: #fff;
+}
+
+footer{
+    background: #2d2d2d;
+    height: 150px;
+
+}
+.footer_container{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+}
+.footer_logo{
+margin: 10px;
+}
